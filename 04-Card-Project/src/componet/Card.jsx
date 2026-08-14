@@ -19,17 +19,15 @@ const Card = (props) => {
 
       {/* Center */}
       <div className="center">
-        <h2>Software Developer</h2>
+        {/* <h2>{props}</h2> */}
 
         <h1>{props.company}</h1>
-
-        <p>{props.location}</p>
 
         <p>{props.tag1}</p>
 
         <p>{props.tag2}</p>
 
-        <p>props.datePosted</p>
+        <p>{props.datePosted}</p>
       </div>
 
       {/* Bottom */}
